@@ -28,7 +28,7 @@ robin,bird,worms
 
 will convert to:
 
-````
+````json
 [
 {
   "animal": "frog",
