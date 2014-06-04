@@ -18,10 +18,10 @@ module CSVtoJSON
   private
 
   def self.convert_booleans(rows)
-    booleans = { "true" => true, "false" => false}
+    booleans = { "true" => true, "false" => false }
     rows.map do |row|
       row.map do |value|
-        booleans[value] ? booleans[value] : value
+        booleans.include?(value) ? booleans[value] : value
       end
     end
   end
