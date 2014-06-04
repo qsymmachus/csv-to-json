@@ -1,0 +1,256 @@
+row_id,include in calculations?,created by default?,is_custom,title
+69170,f,t,,Phase I: Project Programming and Research
+8990,f,t,,Design Proposal Estimate
+7030,f,t,,Pre-Design
+40184,,,,MyNest Suite of Project Management Tools
+61125,,,,Setup Project and Invite Team to Join
+14568,,,,City Planning Research
+16352,,,,Written Research and Permit Schedule Report
+92353,,,,Discuss Scope and Requirements with Architect
+19464,,,,Architect Profile Review and Introduction
+81557,,,,"Architect/Client Meeting in Your Home: Review Your Pictures, Drawings, Ideas"
+11938,,,,Submittal of Architect Proposal
+39754,,,,Create and Review Initial Budget
+80963,,,,Printing and Document Fees
+70287,,,,Acceptance of Architect Proposal and Invoice to Begin Phase II
+66298,f,f,,Custom
+46144,t,f,t,Miscellaneous
+72717,,,,Phase II: Architectural Schematic Design
+13601,f,t,,Design Proposal Estimate
+29465,,,,Initial Design
+70998,,,,"Site Assessment: Slope, Access"
+16061,,,,Coordination of Surveyor by Architect
+13073,,,,Survey by Civil Engineer
+49768,,,,Complete Likes/Dislikes List and Review with Architect
+88446,,,,"Jumpstart Architectural Schemes A1, A2, and A3"
+11924,,,,Verification with City Planning - In Person Meeting with Architect and City Planner
+70632,,,,Architectural Scheme B
+53709,,,,Architectural Scheme C
+58484,,,,Additional Architectural Schemes (Add Service Required)
+61012,,,,Site Plan
+20495,,,,3-D Massing Model
+37445,,,,Interior Design If Required or Requested
+14941,,,,General Contractor - Design and Schematic Budget Review
+81545,,,,Architect Discussion - Budget Review and Agreement
+39643,,,,Creation and Submittal of Planning Review Documents
+35380,,,,City Planning Permit Fees
+95702,,,,Billing of Phase II and Invoice to Begin Phase III
+74877,,,,Phase III: Design Development and Details
+56491,,,,Feature and Detail Selections
+28345,,,,Kitchen Worksheet
+52271,,,,Appliances Worksheet
+55307,,,,Bathroom Worksheet
+62944,,,,Interior Materials and Paint Colors Worksheet
+92608,,,,Electrical and Interior Lighting Worksheet
+15008,,,,Exterior Lighting Worksheet
+93690,,,,Windows Worksheet
+93647,,,,Exterior Materials and Carpentry Worksheet
+68534,,,,Landscaping Worksheet
+48090,,,,Storage Worksheet
+51144,,,,"Structural, Mechanical, Plumbing, Heating, Cooling and Electrical Systems"
+50954,,,,Systems Integration
+3225,,,,Completion of Worksheets on Project Page for Design Review
+55705,,,,Meetings with Architect
+61124,,,,Summary of Phase III and Invoice to Begin Phase IV
+80947,,,,Phase IV: Construction Documents and Building Permits
+70725,,,,Reports and Documentation
+37914,,,,Construction Documents
+21505,,,,Structural Engineering
+62720,,,,Professional Consultant Coordination
+11522,,,,Arborist Report
+75222,,,,Hydrology and Drainage Report
+73977,,,,Recycling Waste Diversion Plan
+78180,,,,Energy Efficiency Report
+93117,,,,Green Consultant and HERS Rating
+42051,,,,Hazardous Materials Report
+20122,,,,Geotechnical Report
+8658,,,,Sewer Lateral Inspection
+57179,,,,Responses to City's Plan Check Comments
+20073,,,,City Building Permit Fees and Impact Fees
+87904,,,,Completion and Submittal of Building Permits
+12844,,,,City Fees: Building Permit Plan Check Fee
+78560,,,,City Fee: Building Permits
+39713,,,,"City Fee: Mechanical, Electrical, and Plumbing Permits"
+5005,,,,City and County Impact Fees
+24803,,,,Sewer or Public Works Fee
+3893,,,,School Fee
+42076,,,,Fire Department Plan Check
+33563,,,,Water Fee
+25232,,,,Other Fees
+59929,,,,Invoice to Begin Phase V
+3118,,,,Phase V: Construction
+41207,,,,Construction Administration
+21554,,,,"Solicit, Review and Present Bids"
+4894,,,,Negotiation and Acceptance of Construction Agreement
+55982,,,,Project Coordination
+31085,,,,Progress Inspections and Site Visits
+16033,,,,Requests For Information (RFIs) and Clarifications
+80289,,,,Change Order Tracking Including Approval/Denial
+97165,,,,Construction Progress Assessments & Reporting
+9671,,,,Invoicing and Payment Administration
+3691,,,,3rd Party Special Engineering Inspections (As Required)
+68350,,,,Contractor Mobilization and Set Up
+44522,,,,Mobilization
+19546,,,,Project Management
+5640,,,,"Foreman, onsite supervision"
+91223,,,,Sanitary Facilities
+86000,,,,Temporary Fencing and Security Barriers
+32183,,,,Temporary Tree and Plant Protection
+11175,,,,Progress Cleaning
+88392,,,,Final Cleaning
+65522,,,,Hazardous Material Assessment
+23849,,,,Demolition and Structure Moving
+68010,,,,Hazardous Material Remediation
+18418,,,,Site Work and Earthwork
+81555,,,,Earthwork
+75229,,,,Site Clearing
+39983,,,,Selective Tree and Shrub Removal
+48228,,,,Excavation and Fill
+29561,,,,Trenching
+29195,,,,Slope Protection
+12729,,,,Planting
+10372,,,,Sub drainage
+41874,,,,Electrical Utilities
+91300,,,,"Solid Waste Collection, Transfer, and Hauling Equipment"
+30006,,,,Prime Contractor Supervision
+27589,,,,Foundation and Concrete
+34367,,,,Foundation
+42054,,,,Thermal and Moisture Protection of Foundation
+3676,,,,Site Concrete
+19820,,,,Sidewalk work
+5814,,,,Patio
+1946,,,,Retaining Walls
+31752,,,,Prime Contractor Supervision
+67479,,,,Framing and Carpentry
+86894,,,,Rough Carpentry
+50298,,,,Hardware and Framing Material
+60400,,,,Pickups and Deliveries
+70239,,,,Entry Roof or Trellis
+6429,,,,Rough Ladder or Stair Framing
+39608,,,,Finish Carpentry
+94384,,,,Exterior Window and Door Trim
+68961,,,,Wood Door and Window Casings
+48786,,,,"Specialty Ladders, Finish Stairs and Railings"
+15932,,,,"Wood Stops, Stools, and Sills"
+76127,,,,Wood Base and Shoe Moldings
+10537,,,,Wood Fasciae and Soffits
+16120,,,,Prime Contractor Supervision
+10023,,,,Insulation and Moisture Protection
+36337,,,,Thermal Insulation
+26464,,,,Damp proofing and Waterproofing
+71680,,,,Waterproofing of Shower/Bath
+58573,,,,Weather Barriers
+31003,,,,"Roof Shingles, Shakes, Metal"
+60790,,,,Siding
+4382,,,,Sheet Metal Flashings
+21761,,,,Misc. Flashings
+76550,,,,Manufactured Gutters and Downspouts
+29838,,,,Fire and Smoke Protection
+31525,,,,Prime Contractor Supervision
+22603,,,,Windows and Doors
+4987,,,,Bathroom Doors
+11601,,,,Bedroom Doors
+15709,,,,Closet Doors
+7165,,,,Interior Door Finish Hardware
+62044,,,,Installation of Interior Doors and Hardware
+88135,,,,Exterior Doors
+59906,,,,Exterior Doors Finish Hardware
+21664,,,,Installation of Exterior Doors and Hardware
+15511,,,,Window A
+13491,,,,Window B
+1982,,,,Window C
+36754,,,,Window D
+2384,,,,Window E
+50849,,,,Window F
+38030,,,,Additional Windows
+14915,,,,"Roof Windows, Skylights and SunTunnels"
+26797,,,,Window Hardware
+76366,,,,Window Flashings
+59435,,,,Installation of Windows
+87870,,,,Prime Contractor Supervision
+92276,,,,Finishes
+26102,,,,Plaster and Gypsum Board
+2852,,,,Flooring
+58206,,,,Exterior Painting
+7483,,,,Interior Painting
+76958,,,,Staining and Transparent Finishing
+61987,,,,Schedules for Storage Specialties
+32119,,,,"Toilet, Bath, and Laundry Accessories"
+12300,,,,Tub and Shower Doors
+36991,,,,Mirrors
+73534,,,,Fireplaces and Stoves
+27111,,,,Closet and Utility Shelving
+36926,,,,Kitchen Cabinets
+17842,,,,Bath Cabinets
+83553,,,,Other Cabinets
+36904,,,,Cabinet and Drawer Hardware
+94573,,,,Cabinet Installation
+58090,,,,Appliances
+16168,,,,Countertops
+9460,,,,Tile Installation
+89323,,,,Tile Wall Materials
+9357,,,,Tile Trim Materials
+56626,,,,Tile Base Materials
+17069,,,,Tile Floor Materials
+34806,,,,"Tile Nooks and ledges for shampoo, soap etc.."
+14837,,,,Tile Trim
+74500,,,,Tile Grout
+15815,,,,Tile Sealer
+40545,,,,Prime Contractor Supervision
+64564,,,,Plumbing
+10228,,,,Plumbing: All Rough and Finish Work
+64487,,,,Water Connection to Main Home
+64071,,,,Gas Connection to Main Home
+46275,,,,Sanitary Sewer Pump
+66055,,,,Sanitary Sewer Lateral Replacement
+57033,,,,Sanitary Sewer
+71319,,,,Plumbing Equipment
+20086,,,,Water Heaters
+77040,,,,Lavatories
+46088,,,,Sinks
+14238,,,,Bathtubs
+69390,,,,Showers
+4913,,,,"Faucets, Supplies, and Trim"
+78851,,,,Prime Contractor Supervision
+81131,,,,Fire Sprinklers
+19441,,,,"Heating, Ventilation, and Air Conditioning"
+78287,,,,HVAC - Flashing
+50666,,,,HVAC - Ducting
+51884,,,,Ventilation Hoods
+84017,,,,Vents
+92048,,,,Heaters
+60158,,,,Radiant Heating Units
+19000,,,,Prime Contractor Supervision
+40207,,,,Electrical
+4707,,,,Electrical - All Electrical Hardware and Installation
+23470,,,,Interior Lights
+49162,,,,Lighting Details
+9058,,,,Exterior Lighting
+17937,,,,Smoke Detection Sensors
+12370,,,,Prime Contractor Supervision
+92019,,,,Overhead and Profit
+40147,,,,Overhead and Profit
+63684,,,,Phase V: Home Improvements and Site Improvements
+21396,,,,Additional Work
+29898,,,,Water line
+43472,,,,Gas line
+21913,,,,Electrical Service
+38066,,,,Foundation
+35262,,,,Electrical service upgrade
+45137,,,,Other
+76343,,,,Additional Work
+71313,,,,Landscaping
+94939,,,,Patios
+95285,,,,Drainage
+39416,,,,Grey water
+37826,,,,Other
+17498,,,,Project Summary and Final Invoice
+21500,,,,Grand Opening Party
+13216,,,,
+24815,,,,Add Services
+37487,,,,Approved Add Service
+14593,,,,Change Orders
+25140,,,,Approved Change Order
+64915,,,,Adjutments and Corrections
+39797,,,,Adjustment
+93111,,,,Correction
