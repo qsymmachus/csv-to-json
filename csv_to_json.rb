@@ -4,6 +4,7 @@ require 'json'
 module CSVtoJSON
   def self.convert_csv(input, output)
     rows = CSV.open(input).read
+    rows = convert_booleans(rows)
     keys = rows.shift
 
     File.open(output, 'w') do |file|
@@ -11,6 +12,17 @@ module CSVtoJSON
         Hash[keys.zip(values)]
       end
       file.write(JSON.pretty_generate data)
+    end
+  end
+
+  private
+
+  def self.convert_booleans(rows)
+    booleans = { "true" => true, "false" => false}
+    rows.map do |row|
+      row.map do |value|
+        booleans[value] ? booleans[value] : value
+      end
     end
   end
 end
