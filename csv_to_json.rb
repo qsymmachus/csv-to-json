@@ -10,9 +10,9 @@ module CSVtoJSON
     rows = CSV.open(input).read
     rows = convert_booleans(rows)
 
-    # nullify headers that begin with pound sign (#)
-    # ['#a','#b','#c','e','f','g'] becomes [nil,nil,nil,'e','f','g']
     keys = rows.shift
+    # mark null  headers that begin with pound sign (#)
+    # ['#a','#b','#c','e','f','g'] becomes [nil,nil,nil,3,4,5]
     keys_nulled = keys.map.with_index(0) { |e,i| e.match(/\A\#.*/) ? nil : i }
 
     File.open(output, 'w') do |file|
