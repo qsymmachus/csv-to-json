@@ -3,12 +3,11 @@ require 'json'
 
 module CSVtoJSON
 
-  # Take a CSV file and spit out a JSON file
-  #
+  # Take a CSV file and spit out a JSON file.
   # If a column's header begins with a pound sign (#), the entire column is ignored  
   def self.convert_csv(input, output)
     rows = CSV.open(input).read
-    rows = convert_booleans(rows)
+    rows = convert_scalars(rows)
 
     keys = rows.shift
     # mark null the headers that begin with pound sign (#)
@@ -26,11 +25,19 @@ module CSVtoJSON
 
   private
 
-  def self.convert_booleans(rows)
+  def self.convert_scalars(rows)
     booleans = { "true" => true, "false" => false }
     rows.map do |row|
       row.map do |value|
-        booleans.include?(value) ? booleans[value] : value
+        if booleans.include?(value) 
+          booleans[value]
+        elsif value.match(/\d+\.\d+/)
+          value.to_f
+        elsif value.match(/\d+/)
+          value.to_i
+        else
+          value
+        end
       end
     end
   end

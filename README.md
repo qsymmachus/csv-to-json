@@ -17,13 +17,24 @@ ruby csv_to_json.rb input.csv output.json
 
 Note that if output.json already exists, it will be overwritten.
 
+###Scalar conversion
+
+Scalar types will be automatically converted from strings to their appropriate type:
+1. If the words 'true' or 'false' appear as separated values in your CSV file, they will be converted into booleans.
+2. '1' will be converted into an integer.
+3. '3.14' will be converted into a float.
+
+###Ignoring columns
+
+If a column header is prefixed with a hash/octothorpe (#), it will be excluded from the JSON conversion.
+
 ###Example
 
 ````
-animal,class,diet
-frog,amphibian,flies
-lion,mammal,zebras
-robin,bird,worms
+animal,class,diet,#size
+frog,amphibian,flies,small
+lion,mammal,zebras,big
+robin,bird,worms,small
 ````
 
 will convert to:
