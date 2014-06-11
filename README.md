@@ -19,10 +19,9 @@ Note that if output.json already exists, it will be overwritten.
 
 ###Scalar conversion
 
-Scalar types will be automatically converted from strings to their appropriate type:
-1. If the words 'true' or 'false' appear as separated values in your CSV file, they will be converted into booleans.
-2. '1' will be converted into an integer.
-3. '3.14' will be converted into a float.
+Scalar types will be automatically converted from strings to their appropriate type.
+
+For example, if the words 'true' or 'false' appear as separated values in your CSV file, they will be converted into booleans. '1' will be converted into an integer. '3.14' will be converted into a float.
 
 ###Ignoring columns
 
