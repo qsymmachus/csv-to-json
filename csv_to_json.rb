@@ -29,6 +29,7 @@ module CSVtoJSON
     booleans = { "true" => true, "false" => false }
     rows.map do |row|
       row.map do |value|
+        next if value.nil?
         if booleans.include?(value) 
           booleans[value]
         elsif value.match(/\d+\.\d+/)
