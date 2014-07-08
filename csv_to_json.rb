@@ -32,9 +32,9 @@ module CSVtoJSON
         next unless value.is_a?(String)
         if booleans.include?(value) 
           booleans[value]
-        elsif value.match(/\d+\.\d+/)
+        elsif value.match(/\A\d+\.\d+\z/)
           value.to_f
-        elsif value.match(/\d+/)
+        elsif value.match(/\A\d+\z/)
           value.to_i
         else
           value
