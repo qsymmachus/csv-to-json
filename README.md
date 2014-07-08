@@ -17,6 +17,18 @@ ruby csv_to_json.rb input.csv output.json
 
 Note that if output.json already exists, it will be overwritten.
 
+All CSV files in a given directory can be batch converted:
+
+````ruby
+CSVtoJSON.batch_convert_csv(directory)
+````
+
+or in your shell:
+
+````
+ruby csv_to_json.rb -b directory
+````
+
 ###Scalar conversion
 
 Scalar types will be automatically converted from strings to their appropriate type.
