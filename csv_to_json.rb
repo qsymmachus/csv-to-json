@@ -23,6 +23,15 @@ module CSVtoJSON
     end
   end
 
+  def self.batch_convert_csv(directory)
+    Dir.foreach(directory) do |filename|
+      next unless /.*.csv\z/.match(filename)
+      input = directory + '/' + filename
+      output = directory + '/' + filename.gsub('csv', 'json')
+      self.convert_csv(input, output)
+    end
+  end
+
   private
 
   def self.convert_scalars(rows)
@@ -47,5 +56,5 @@ end
 #-------For use in the shell-----
 if ARGV.size > 0
   abort("Usage: csv_to_json.rb input.csv output.json") unless ARGV.size == 2
-  CSVtoJSON.convert_csv(ARGV[0], ARGV[1])
+  ARGV[0] == '-b' ? CSVtoJSON.batch_convert_csv(ARGV[1]) : CSVtoJSON.convert_csv(ARGV[0], ARGV[1])
 end
